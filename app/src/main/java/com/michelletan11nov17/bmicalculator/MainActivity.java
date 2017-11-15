@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
                     String BMIstr = String.format("%.2f", BMI);
 
                     if (BMI < 16) {
-                        BMI_result.setText("Your BMI is "+ BMIstr + " :`Severely Underweight");
+                        BMI_result.setText("Your BMI is "+ BMIstr + " :Severely Underweight");
                     }
                     else if (BMI < 18.5) {
                         BMI_result.setText("Your BMI is "+ BMIstr + " : Underweight");
